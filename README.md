@@ -12,6 +12,7 @@ Conference Expense Planner is a React-based web application that helps users eff
 🛠️ Built With
 
 React – Frontend UI
+
 Redux Toolkit – State management for venue, AV, and meals
 CSS – Styling and animations
 
