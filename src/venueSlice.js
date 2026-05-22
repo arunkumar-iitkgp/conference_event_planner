@@ -1,35 +1,40 @@
 // venueSlice.js
 import { createSlice } from "@reduxjs/toolkit";
+import ConferenceRoomImg from "./assets/Conference_room.jpg";
+import AuditoriumImg from "./assets/Auditorium.jpg";
+import PresentationRoomImg from "./assets/Presentation_room.jpg";
+import MeetingRoomImg from "./assets/Meeting_room.jpg";
+import SmallMeetingRoomImg from "./assets/Small_meeting_room.jpg";
 
 export const venueSlice = createSlice({
   name: "venue",
   initialState: [
     {
-      img: "Conference_room.jpg",
+      img: ConferenceRoomImg,
       name: "Conference Room (Capacity:15)",
       cost: 3500,
       quantity: 0,
     },
     {
-      img: "Auditorium.jpg",
+      img: AuditoriumImg,
       name: "Auditorium Hall (Capacity:200)",
       cost: 5500,
       quantity: 0,
     },
     {
-      img: "Presentation_room.jpg",
+      img: PresentationRoomImg,
       name: "Presentation Room (Capacity:50)",
       cost: 700,
       quantity: 0,
     },
     {
-      img: "Meeting_room.jpg",
+      img: MeetingRoomImg,
       name: "Large Meeting Room (Capacity:10)",
       cost: 900,
       quantity: 0,
     },
     {
-      img: "Small_meeting_room.jpg",
+      img: SmallMeetingRoomImg,
       name: "Small Meeting Room (Capacity:5)",
       cost: 1100,
       quantity: 0,
